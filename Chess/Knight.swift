@@ -15,4 +15,8 @@ class Knight: Piece {
     override func move() {
         print("Like an L")
     }
+    
+    init(isWhite: Bool) {
+        super.init(value: 2, isWhite: isWhite)
+    }
 }

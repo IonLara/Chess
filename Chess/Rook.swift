@@ -15,4 +15,8 @@ class Rook: Piece {
     override func move() {
         print("Horizontally or vertically")
     }
+    
+    init(isWhite: Bool) {
+        super.init(value: 5, isWhite: isWhite)
+    }
 }

@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+var piecesArray: [Piece] = []
+piecesArray.append(Pawn(isWhite: true))
+piecesArray.append(Knight(isWhite: true))
+piecesArray.append(Bishop(isWhite: true))
+piecesArray.append(Rook(isWhite: true))
+piecesArray.append(Queen(isWhite: true))
+piecesArray.append(King(isWhite: true))
+
 

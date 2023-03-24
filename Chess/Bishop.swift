@@ -15,4 +15,8 @@ class Bishop: Piece {
     override func move() {
         print("Diagonally")
     }
+    
+    init(isWhite: Bool) {
+        super.init(value: 3, isWhite: isWhite)
+    }
 }

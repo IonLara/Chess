@@ -9,7 +9,7 @@ import Foundation
 
 class Pawn: Piece {
     var promoted = Bool()
-    var newPiece = Piece()
+    var newPiece = Piece(value: 1, isWhite: true)
     
     override var description: String {
         "Pawn (value = \(getValue())"
@@ -25,5 +25,10 @@ class Pawn: Piece {
     
     static func ==(lhs: Pawn, rhs: Pawn) -> Bool {
         lhs.promoted == rhs.promoted && lhs.newPiece == rhs.newPiece
+    }
+    
+    init(isWhite: Bool) {
+        promoted = false
+        super.init(value: 1, isWhite: isWhite)
     }
 }

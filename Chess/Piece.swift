@@ -16,7 +16,6 @@ class Piece: CustomStringConvertible, Equatable {
     }
     
     func move() {
-        
     }
     
     func getValue() -> Int {
@@ -30,4 +29,8 @@ class Piece: CustomStringConvertible, Equatable {
         lhs.value == rhs.value && lhs.isWhite == rhs.isWhite
     }
     
+    init(value: Int, isWhite: Bool) {
+        self.value = value
+        self.isWhite = isWhite
+    }
 }

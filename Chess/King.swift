@@ -15,4 +15,8 @@ class King: Piece {
     override func move() {
         print("One square")
     }
+    
+    init(isWhite: Bool) {
+        super.init(value: 1000, isWhite: isWhite)
+    }
 }

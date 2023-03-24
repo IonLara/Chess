@@ -15,4 +15,8 @@ class Queen: Piece {
     override func move() {
         print("Like bishop and rook")
     }
+    
+    init(isWhite: Bool) {
+        super.init(value: 9, isWhite: isWhite)
+    }
 }
