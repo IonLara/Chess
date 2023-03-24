@@ -9,7 +9,7 @@ import Foundation
 
 class Piece: CustomStringConvertible, Equatable {
     private var value = Int()
-    private var isWhite = Bool()
+    private(set) var isWhite = Bool()
     
     var description: String {
         "Piece"
