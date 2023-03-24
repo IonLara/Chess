@@ -9,7 +9,7 @@ import Foundation
 
 class Rook: Piece {
     override var description: String {
-        "Rook (value = \(getValue())"
+        "Rook (value = \(getValue()))"
     }
     
     override func move() {

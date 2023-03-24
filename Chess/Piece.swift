@@ -12,7 +12,7 @@ class Piece: CustomStringConvertible, Equatable {
     private(set) var isWhite = Bool()
     
     var description: String {
-        "Piece"
+        "Piece (Value = \(value))"
     }
     
     func move() {

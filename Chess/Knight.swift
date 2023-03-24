@@ -9,7 +9,7 @@ import Foundation
 
 class Knight: Piece {
     override var description: String {
-        "Knight (value = \(getValue())"
+        "Knight (value = \(getValue()))"
     }
     
     override func move() {

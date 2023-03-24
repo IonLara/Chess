@@ -12,7 +12,7 @@ class Pawn: Piece {
     var newPiece: Piece? = Piece(value: 1, isWhite: true)
     
     override var description: String {
-        "Pawn (value = \(getValue())"
+        "Pawn (value = \(getValue()))"
     }
     
     func promote(_ newPiece: Piece) {

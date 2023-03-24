@@ -9,7 +9,7 @@ import Foundation
 
 class Bishop: Piece {
     override var description: String {
-        "Bishopn (value = \(getValue())"
+        "Bishopn (value = \(getValue()))"
     }
     
     override func move() {
